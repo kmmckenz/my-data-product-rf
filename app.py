@@ -4,7 +4,7 @@ import base64
 
 # importing files
 
-import Capstone_Milestone_3_rf
+import Capstone_Milestone_3_Random_Forest
 
 pdf_doc = 'Capstone_Milestone_3_Documentation.pdf'
 encoded_pdf = base64.b64encode(open(pdf_doc, 'rb').read()).decode()
